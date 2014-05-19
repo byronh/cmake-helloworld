@@ -63,9 +63,10 @@ Visual Studio 10 Win64 = Visual Studio 2010 64-bit
 Visual Studio 9 = Visual Studio 2008  
 Visual Studio 8 = Visual Studio 2005  
 
-For example, "Visual Studio 12 Win64" targets Visual Studio 2013 on 64-bit systems. Refer to the following link for more information:
+For example, "Visual Studio 12 Win64" targets Visual Studio 2013 on 64-bit systems. More information:
 
-http://www.cmake.org/cmake/help/v2.8.8/cmake.html#section_Generators
+http://www.cmake.org/cmake/help/v2.8.8/cmake.html#section_Generators  
+http://stackoverflow.com/questions/70013/how-to-detect-if-im-compiling-code-with-visual-studio-2008  
 
 #####2. Build using CMake
 ```
