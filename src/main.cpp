@@ -34,8 +34,5 @@ int main(void)
 
 	glfwTerminate();
 
-	std::cout << "Finished, press [Enter] to continue..." << std::endl;
-	std::cin.get();
-
 	return 0;
 }
