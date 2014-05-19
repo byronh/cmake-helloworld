@@ -13,6 +13,8 @@ http://www.cmake.org/cmake/resources/software.html
 git clone --recursive https://github.com/byronh/cmake-helloworld.git
 ```
 
+#####4. If using Windows, download and install MinGW or Visual Studio
+
 ###Building
 
 ####Linux & Mac OS X
@@ -31,7 +33,24 @@ make
 ./main
 ```
 
-####Windows 32 & 64 bit
+####Windows 32 bit (MinGW)
+
+#####1. Build using CMake
+
+```
+mkdir build
+cd build
+cmake .. -G "MinGW Makefiles"
+```
+
+#####2. Compile with makefile and run the executable
+```
+mingw32-make
+main.exe
+```
+
+
+####Windows 32 & 64 bit (Visual Studio)
 
 #####1. Choose the CMake generator according to your system (32 or 64 bit) and installed version of Visual Studio:
 
@@ -47,8 +66,6 @@ Visual Studio 8 = Visual Studio 2005
 For example, "Visual Studio 12 Win64" targets Visual Studio 2013 on 64-bit systems. Refer to the following link for more information:
 
 http://www.cmake.org/cmake/help/v2.8.8/cmake.html#section_Generators
-
-Alternatively you could just use something more sane such as [MinGW] (http://www.mingw.org/);
 
 #####2. Build using CMake
 ```
