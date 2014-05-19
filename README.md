@@ -1,4 +1,4 @@
-##CMake Hello World
+##CMake Hello World using Git submodules for dependencies
 
 ###Prerequisites
 
