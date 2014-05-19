@@ -1,4 +1,5 @@
-##CMake Hello World using Git submodules for dependencies
+##CMake Hello World
+This example project created for learning purposes uses Git submodules and CMake to include dependencies as static libraries in the build, allowing for easy cross-platform C++ development and deployment.
 
 ###Prerequisites
 
